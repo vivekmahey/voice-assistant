@@ -13,7 +13,6 @@ dist-ssr
 *.local
 
 # Editor directories and files
-echo "src/commented.txt" >> .gitignore
 
 .vscode/*
 !.vscode/extensions.json
