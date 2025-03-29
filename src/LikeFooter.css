@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .like-footer {
+    padding: 70px 0px;
+    height: 80vh;
+    background-color: #ebebeb;
+    text-align: center;
+  }
+  
+  .like-footer-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #1e1e1e;
+  }
+  
+  .like-footer-subtitle {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 40px;
+  }
+  
+  /* Wrapper to Hide Overflow */
+  .logo-wrapper {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+  
+  /* Logo Container with Marquee */
+  .logo-container {
+    display: inline-flex;
+    animation: marquee 20s linear infinite; /* Default to right-to-left */
+  }
+  
+  /* Reverse for Second Row */
+  .logo-container.reverse {
+    animation: marquee-reverse 20s linear infinite; /* Left-to-right */
+  }
+  
+  /* Logo Item Styles */
+  .logo-item {
+    width: 30%;
+    height: 210px;
+    opacity: 0.5;
+    display: flex;
+    border: 1px solid #bebfc4;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    flex-shrink: 0;
+  }
+  
+  .logo-item:hover {
+    opacity: 1;
+    background-color: #ededed;
+  }
+  
+  .logo-item img {
+    width: 200px;
+    height: auto;
+    filter: grayscale(100%);
+  }
+  
+  .logo-item:hover img {
+    filter: grayscale(0%);
+  }
+  
+  /* ✅ Marquee Animation */
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* ✅ Reverse Marquee Animation */
+  @keyframes marquee-reverse {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .logo-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
