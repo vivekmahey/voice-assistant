@@ -236,6 +236,13 @@ const VoiceAssistant = () => {
             </div>
           ))}
         </div>
+        <iframe style={{position: "fixed", top: 0, left: 0, height: "100vh", width: "100vw", zIndex: -1}}
+    src="https://my.spline.design/chips-59c0b70cdbf21df59c36994a787a6696/"
+    frameborder="0"
+    height="100vh"
+    width="100%"
+    allowfullscreen
+  ></iframe>
       </div>
     </>
   );

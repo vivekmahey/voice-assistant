@@ -5,7 +5,7 @@ const logos = [
   { id: 1, src: "../src/assets/logo1.avif", alt: "Logo 1" },
   { id: 2, src: "../src/assets/logo2.avif", alt: "Logo 2" },
   { id: 3, src: "../src/assets/logo3.avif", alt: "Logo 3" },
-  { id: 5, src: "../src/assets/logo3.png", alt: "Logo 5" },
+  { id: 4, src: "../src/assets/logo3.png", alt: "Logo 4" },
 ];
 
 const LikeFooter = () => {

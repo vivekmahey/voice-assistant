@@ -2,13 +2,13 @@
 import React from "react";
 import VoiceAssistant from "../src/VoiceAssistant";
 // import Home from "../src/Home"
-// import LikeFooter from "../src/LikeFooter"
+import LikeFooter from "../src/LikeFooter"
 
 function App() {
   return (
     <div >
       <VoiceAssistant />
-      {/* <LikeFooter/> */}
+      <LikeFooter/>
       {/* <Home/> */}
     </div>
   );
