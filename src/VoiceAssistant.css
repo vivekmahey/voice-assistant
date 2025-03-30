@@ -9,8 +9,7 @@ body {
   font-family: "Cormorant Garamond", serif;
   color: #1f1f1f; /* Dark text for contrast */
 }
-.container{
-}
+
 /* Header Labels */
 .lable1, .lable2 {
   border-top-left-radius: 15px;
